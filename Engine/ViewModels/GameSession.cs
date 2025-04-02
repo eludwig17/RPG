@@ -13,21 +13,25 @@ namespace Engine.ViewModels
         public Location CurrentLocation { get; set; }
 
         public GameSession() 
-        { 
-            CurrentPlayer = new Player();
-            CurrentPlayer.Name = "Eli";
-            CurrentPlayer.CharacterClass = "Mage";
-            CurrentPlayer.HitPoints = 10;
-            CurrentPlayer.Gold = 10000;
-            CurrentPlayer.ExperiencePoints = 0;
-            CurrentPlayer.Level = 1;
+        {
+            CurrentPlayer = new Player
+            {
+                Name = "Eli",
+                CharacterClass = "Mage",
+                HitPoints = 10,
+                Gold = 10000,
+                ExperiencePoints = 0,
+                Level = 1
+            };
 
-            CurrentLocation = new Location();
-            CurrentLocation.Name = "Home";
-            CurrentLocation.XCoordinate = 0;
-            CurrentLocation.YCoordinate = -1;
-            CurrentLocation.Description = "This is your house";
-            CurrentLocation.ImageName = "/Engine;component/Images/Locations/Home.png"; //Image is currently not displaying
+            CurrentLocation = new Location
+            {
+                Name = "Home",
+                XCoordinate = 0,
+                YCoordinate = -1,
+                Description = "This is your house",
+                ImageName = "/Engine;component/Images/Locations/Home.png" //Image is currently not displaying
+            };
         }
     }
 }
