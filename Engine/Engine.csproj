@@ -24,9 +24,6 @@
     <Resource Include="Images\Locations\Farmhouse.png" />
     <Resource Include="Images\Locations\HerbalistsGarden.png" />
     <Resource Include="Images\Locations\HerbalistsHut.png" />
-    <Resource Include="Images\Locations\Home.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
     <Resource Include="Images\Locations\SpiderForest.png" />
     <Resource Include="Images\Locations\TownGate.png" />
     <Resource Include="Images\Locations\TownSquare.png" />
